@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=text], input[type=password], input[type=email] {
+    border-radius: 0.125rem;
+    height: 2rem;
+    outline: none;
+    padding-left: .5rem;
+    width: 100%;
+}
+
+label { 
+    width: 100%;
+}
